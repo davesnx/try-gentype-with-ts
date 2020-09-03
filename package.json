@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "dependencies": {
+    "bs-platform": "7",
+    "gentype": "3.18.0",
+    "tablecloth-bucklescript": "^0.0.7"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  }
+}

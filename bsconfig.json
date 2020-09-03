@@ -1,0 +1,31 @@
+{
+  "name": "try-gentype-with-ts",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": ".",
+      "subdirs": false
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "tablecloth-bucklescript"
+  ],
+  "warnings": {
+    "number": "-44-23",
+    "error": "+8+101"
+  },
+  "refmt": 3,
+  "gentypeconfig": {
+    "language": "typescript",
+    "shims": {},
+    "debug": {
+      "all": true,
+      "basic": true
+    }
+  }
+}
