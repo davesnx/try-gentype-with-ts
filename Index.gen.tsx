@@ -11,4 +11,6 @@ import {t as JsSet_t} from 'bs-js-collections/src/JsSet.gen';
 
 export const set: JsSet_t<number> = IndexBS.set;
 
+export const 2set: JsSet_t<number> = IndexBS.set2;
+
 export const regex: Js_Re_t = IndexBS.regex;
